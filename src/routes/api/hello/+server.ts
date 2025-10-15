@@ -3,7 +3,7 @@ import type { RequestHandler } from './$types'
 
 export const GET: RequestHandler = async () => {
   return json({
-    message: 'Hello from the API!',
+    message: 'Hello from the API!!',
     timestamp: new Date().toISOString()
   })
 }
